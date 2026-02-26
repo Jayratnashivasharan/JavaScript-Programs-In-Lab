@@ -1,0 +1,19 @@
+// c) find maximum of 3 numbers.
+
+function findMaxOfThree(a, b, c) {
+    let max = a;
+
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+
+    return max;
+}
+
+// Example usage:
+console.log("Maximum of (10, 25, 7):", findMaxOfThree(10, 25, 7));
+console.log("Maximum of (45, 12, 89):", findMaxOfThree(45, 12, 89));
+console.log("Maximum of (5, 5, 5):", findMaxOfThree(5, 5, 5));

@@ -1,0 +1,38 @@
+<!-- Q4) Change text color when mouse enters and leave and also change background color on double click -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Events Example</title>
+    <style>
+        #myText {
+            font-size: 24px;
+            padding: 20px;
+            border: 1px solid black;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p id="myText">Hover or Double Click Me!</p>
+
+    <script>
+        let textElement = document.getElementById("myText");
+
+        // Change text color when mouse enters
+        textElement.addEventListener("mouseenter", function() {
+            textElement.style.color = "red";
+        });
+
+        // Reset text color when mouse leaves
+        textElement.addEventListener("mouseleave", function() {
+            textElement.style.color = "black";
+        });
+
+        // Change background color on double click
+        textElement.addEventListener("dblclick", function() {
+            textElement.style.backgroundColor = "yellow";
+        });
+    </script>
+</body>
+</html>

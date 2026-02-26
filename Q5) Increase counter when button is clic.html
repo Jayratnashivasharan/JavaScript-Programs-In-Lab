@@ -1,0 +1,21 @@
+<!-- Q5) Increase counter when button is clicked  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter Example</title>
+</head>
+<body>
+    <h2>Click Counter</h2>
+    <p id="counter">0</p>
+    <button onclick="increaseCounter()">Click Me!</button>
+
+    <script>
+        let count = 0;
+
+        function increaseCounter() {
+            count++;
+            document.getElementById("counter").innerText = count;
+        }
+    </script>
+</body>
+</html>

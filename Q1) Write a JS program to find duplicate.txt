@@ -1,0 +1,8 @@
+Q1) Write a JS program to find duplicate elements 
+Q2) Write program to 
+a) Genarate random numbers between 0
+b) Find Square root 
+c) find maximum of 3 numbers.
+Q3) CReate password field a)Minimum 8 charachters b)Must contain 1 uppercase 1 special charactere.
+Q4) Change text color when mouse enters and leave and also change background color on double click
+Q5) Increase counter when button is clicked 
