@@ -1,0 +1,12 @@
+Itrator :
+1Manual inplementation
+2 Ned to define next()
+3 More complex
+4 Object based
+5 ex. TV remote to next channel manualy
+Genarator:
+1 Automaticaly created
+2 yeild handle false
+3 Easier
+4 function based
+5 ex. Netflix Autoplay
