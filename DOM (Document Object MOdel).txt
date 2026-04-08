@@ -1,0 +1,18 @@
+DOM (Document Object MOdel)
+Document -> Root Element <html> -> Element<head> Element<title> Text My title
+
+The document Object MOdel is a programming interface for HTML and XML Documents.
+It represent a web page as structure of a Objects.
+Uses:
+1)DOM change contains. 
+2)Change Style.
+3)Add or Remove Elements.
+4)Handle Events.
+5)Create dynamic webpages.
+
+
+Selectors:
+1) getElementById()
+   let el=document.getElementById("demo");
+2) getElementByClassName()
+3)
