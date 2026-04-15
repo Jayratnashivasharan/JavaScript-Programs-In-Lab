@@ -1,0 +1,32 @@
+HTML Elements and Attributes:
+html is use to create and structure web pages. 
+It is used elements and attributes to display text, images, links,tables, forms etc.
+Html Elements:
+And html elementsde fines the structure and the contains of web pages.
+and elements usualy contains "{" tag contains and closing "}" tag.
+
+HTML Attributes 
+
+Attributes:
+id : unique identifier
+class: Group of elements for Styling.
+Style : Inline CSS
+title : Tooltip text
+hidden: hidden elements
+tabindex: tab nevigation
+
+
+Element     Attributes      purpose
+<img>       src             image path
+<a>         href            Link address
+<input>     type            Input type
+<form>      action          Form submission URL
+
+And html attributes provides additional informations about html elements.
+Attributes are always return inside the "{" tag of an element and usualy apear as name value pair.
+
+eg.
+<img src="img.jpg" alt="sample img">
+    |          \    / 
+element       attribute
+
