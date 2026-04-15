@@ -1,0 +1,26 @@
+<!-- Create and add List -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Add List</title>
+</head>
+<body>
+    <ul id="list"></ul>
+    <script>
+        let item1=document.createElement("li");
+        item1.textContent="Hello Honey";
+        document.getElementById("list").appendChild(item1);
+
+        let item2=document.createElement("li");
+        item2.textContent="Hello Jay";
+        document.getElementById("list").appendChild(item2);
+
+        let item3=document.createElement("li");
+        item3.textContent="Hello Bunny";
+        document.getElementById("list").appendChild(item3);
+    </script>
+</body>
+</html>
