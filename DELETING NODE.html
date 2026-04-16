@@ -1,0 +1,31 @@
+<!-- DELETING NODE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeleteNode</title>
+</head>
+<body>
+    <h2 id="myele">This will be Deleted</h2>
+    <button onclick="deleteElement()">Delete Element</button>
+    <button onclick="restoreElement()">Restore Element</button>
+
+    <script>
+        const text = "This will be Deleted";
+
+        function deleteElement() {
+            document.getElementById("myele")?.remove();
+        }
+
+        function restoreElement() {
+            if (document.getElementById("myele")) return;
+
+            const h2 = document.createElement("h2");
+            h2.id = "myele";
+            h2.textContent = text;
+            document.body.insertBefore(h2, document.body.firstElementChild);
+        }
+    </script>
+</body>
+</html>
