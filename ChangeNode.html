@@ -1,0 +1,46 @@
+<!-- Changing Node: -->
+<html>
+    <body>
+        <h2>Changing Node</h2>
+        <p id="demo">This is original Text! </p>
+        <img
+            id="demoImage"
+            src="Screenshot 2026-04-15 162914.png"
+            alt="Demo image"
+            width="200"
+        >
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeHTML()">Change HTML</button>
+        <button onclick="changeAttribute()">Change Attribute</button>
+        <button onclick="changeStyle()">Change Style</button>
+        <button onclick="redoAllChanges()">Redo All Changes</button>
+
+        <script>
+            const originalText = "This is original Text! "
+            const originalImage = "Screenshot 2026-04-15 162914.png"
+
+            function changeText(){
+                document.getElementById("demo").textContent="Text has been changed"
+            }
+            function changeHTML() {
+                document.getElementById("demo").innerHTML="<b>Bold Text</b>"
+            }
+            function changeAttribute() {
+                document.getElementById("demoImage").src="https://images.trvl-media.com/localexpert/1790496/71d84da1-ebdb-49a6-a1e2-75936c03475f.jpg?impolicy=resizecrop&rw=1005&rh=565"
+            }
+            function changeStyle() {
+                document.getElementById("demo").style.color="red"
+                document.getElementById("demo").style.fontSize="30px"
+            }
+            function redoAllChanges() {
+                const demo = document.getElementById("demo")
+                const demoImage = document.getElementById("demoImage")
+
+                demo.textContent = originalText
+                demo.style.color = ""
+                demo.style.fontSize = ""
+                demoImage.src = originalImage
+            }
+        </script>
+    </body>
+</html>
